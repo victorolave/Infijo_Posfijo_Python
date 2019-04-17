@@ -33,18 +33,23 @@ while True:
     if opcion_menu == "1":
         expresion_infija = input("Digite la expresion: ")
         print("Expresion Guardada!")
+        input("pulsa una tecla para continuar...")
     elif opcion_menu == "2":
         if expresion_infija == "":
             print("No ha ingresado una expresion")
+            input("pulsa una tecla para continuar...")
         else:
             print("La expresion en su forma infija es: ", expresion_infija)
+            input("pulsa una tecla para continuar...")
     elif opcion_menu == "3":
          if expresion_infija == "":
              print("No ha ingresado una expresion")
+             input("pulsa una tecla para continuar...")
          else:
             print(convertir(expresion_infija))
+            input("pulsa una tecla para continuar...")
 
-    elif opcion_menu == "9":
+    elif opcion_menu == "4":
         break
 
     else:
